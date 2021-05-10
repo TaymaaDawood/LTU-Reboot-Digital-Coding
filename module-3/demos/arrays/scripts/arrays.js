@@ -20,3 +20,7 @@ let el = document.getElementById('colours');
 // To change an element in an array we can reassign an element, like so
 
 // colours[3] = 'pink' now pink has replaced 'orange in our array
+
+/*console.log(colours[3]);
+colours[3] = 'pink';
+console.log(colours[3]);*/
