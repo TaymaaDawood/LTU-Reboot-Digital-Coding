@@ -40,7 +40,7 @@ checkAvailability(inStock);*/
     alert (message);
 }
 showMessege();*/
-function productDiscount(){
+/*function productDiscount(){
     if (quantity > 1){
      let newPrice=(price - discountAmount * quantity);
     console.log(newPrice);
@@ -49,4 +49,68 @@ function productDiscount(){
         console.log(price*quantity);
     }
 }
-productDiscount();
+productDiscount();*/
+
+let productAsAnArray =[productName, price, quantity, inStock, discountAmount];
+//console.log(productAsAnArray);
+
+let firstItem = productAsAnArray[0];
+let lastItem = productAsAnArray[4];
+//console.log(firstItem ,' ' , lastItem);
+
+let productAsAnObject ={
+  productName: "Chocolate Icecream",
+  price: 0.89,
+  quantity: 2,
+  discountAmount: 0.20
+};
+/*console.log(productAsAnObject.productName);
+console.log(productAsAnObject.quantity);*/
+
+/*let productName2 = productAsAnObject.productName;
+
+let productPrice=productAsAnObject['price'];
+console.log ('product name:', productName2 ,' ','product price:', productPrice);*/
+
+/*console.log(productAsAnObject.productName);
+productAsAnObject.price=1.15;
+//console.log(productAsAnObject.price);
+productAsAnObject.inStock= false;
+productAsAnObject['quantity']=5;
+console.log('price:',productAsAnObject.price,' ', 'quantity:', productAsAnObject.quantity);*/
+
+/*productAsAnObject.loyaltyCard= false;  //add new properity
+console.log(productAsAnObject.loyaltyCard);
+delete productAsAnObject.loyaltyCard
+*/
+/*let numbers=[1,2,3,4,5,6,7,8,9];
+//console.log(numbers.length);
+for ( let counter=0; counter<numbers.length; counter++){
+    console.log(numbers[counter]);
+}*/
+
+/*
+7 times table
+7*1
+7*2 etc
+7*12 stop
+for loop 
+  counter =1
+  counter< 12 
+  counter ++
+*/
+/*for(let counter= 1; counter<=12; counter++){
+    let result = 7* counter;
+
+    console.log(result);
+}*/
+
+
+function multiplyBy(num){
+    for(let counter= 1; counter<=12; counter++){
+        let result = num * counter;
+    
+        console.log(num, '* ', counter ,'=', result);
+    }
+}
+multiplyBy(5);
