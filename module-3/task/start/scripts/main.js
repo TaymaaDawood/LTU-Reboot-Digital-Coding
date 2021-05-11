@@ -106,11 +106,35 @@ for loop
 }*/
 
 
-function multiplyBy(num){
+/*function multiplyBy(num){
     for(let counter= 1; counter<=12; counter++){
         let result = num * counter;
     
         console.log(num, '* ', counter ,'=', result);
     }
 }
-multiplyBy(5);
+multiplyBy(5);*/
+
+/*
+arr=shoppingcart
+
+shoppingcart[1]
+
+for
+counter=0
+counter<arr.length
+counter ++
+
+arr[counter].price*arr[counter].quantity
+*/
+
+function totalPriceOfShopping(arr){
+  let totalPrice=0;
+
+ for (let counter=0; counter<arr.length; counter++){
+     totalPrice+=arr[counter].price*arr[counter].quantity;
+   }
+   return totalPrice.toFixed(2);
+}
+
+console.log(totalPriceOfShopping(shoppingCart));
