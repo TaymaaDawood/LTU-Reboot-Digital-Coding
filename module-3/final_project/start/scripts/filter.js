@@ -8,7 +8,7 @@ function toggleImages(dataClass){
 
 }
 
-let person={
+/*let person={
     name:'Taymaa',
     age:36,
     height: 165,
@@ -17,7 +17,16 @@ let person={
 
 person['age'];
 person.age;
-person.birthplace;
+person.birthplace;*/
+
+/*let person=[
+    'Taymaa',
+    36,
+    165,
+    'Nineveh']
+
+    person[1];
+    person[0]='alix';*/
 
 
 //buttons change colour to blue and text to white
